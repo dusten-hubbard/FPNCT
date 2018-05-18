@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE Series SYSTEM "series.dtd">
 
-<Series index="164" viewport="1.2661 -1.2844 0.00505207"
+<Series index="140" viewport="4.73515 -0.942933 0.00229509"
 	units="microns"
 	autoSaveSeries="true"
 	autoSaveSection="true"
@@ -32,7 +32,7 @@
 	defaultBorder="0.000 1.000 1.000"
 	defaultFill="0.502 1.000 1.000"
 	defaultMode="11"
-	defaultName="d01ax22a_ddh"
+	defaultName="d01ax22A_ddh"
 	defaultComment="ddh_traced_2018-05-18"
 	listSectionThickness="true"
 	listDomainSource="true"
@@ -119,7 +119,7 @@
 	ctrlIncrement="0.00439999 0.01 0.01 1.002 1.002 0.004 0.004 0.0002 0.0002"
 	shiftIncrement="0.11 100 100 1.05 1.05 0.1 0.1 0.005 0.005"
 	>
-<Contour name="d01ax22a_ddh" comment="ddh_traced_2018-05-18" closed="true" border="0.000 1.000 1.000" fill="0.502 1.000 1.000" mode="11"
+<Contour name="d01ax22A_ddh" comment="ddh_traced_2018-05-18" closed="true" border="0.000 1.000 1.000" fill="0.502 1.000 1.000" mode="11"
  points="-3 1,
 	-3 -1,
 	-1 -3,
@@ -166,7 +166,7 @@
 	0 1,
 	-4 7,
 	"/>
-<Contour name="yellow$+" closed="true" border="1.000 1.000 0.000" fill="1.000 1.000 0.000" mode="-13"
+<Contour name="delete trace" closed="true" border="1.000 1.000 0.000" fill="1.000 1.000 0.000" mode="11"
  points="8 8,
 	8 -8,
 	-8 -8,
