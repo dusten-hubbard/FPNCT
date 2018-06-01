@@ -4602,7 +4602,7 @@
 <Transform dim="0"
  xcoef=" 0 1 0 0 0 0"
  ycoef=" 0 0 1 0 0 0">
-<Contour name="d01ax10" comment="LK bouton trace named after cfa" hidden="true" closed="true" simplified="true" border="0 1 1" fill="0.502 1 1" mode="-11"
+<Contour name="d01ax10" comment="LK bouton trace named after cfa" hidden="false" closed="true" simplified="true" border="0 1 1" fill="0.502 1 1" mode="-11"
  points="4.11533 1.74075,
 	4.13815 1.74503,
 	4.18381 1.7593,
@@ -4705,7 +4705,7 @@
 <Transform dim="0"
  xcoef=" 0 1 0 0 0 0"
  ycoef=" 0 0 1 0 0 0">
-<Contour name="d01ax10" comment="LK bouton trace named after cfa; DDH cut to trim the overtrace" hidden="true" closed="true" simplified="true" border="0 1 1" fill="0.502 1 1" mode="-11"
+<Contour name="d01ax10" comment="LK bouton trace named after cfa; DDH cut to trim the overtrace" hidden="false" closed="true" simplified="true" border="0 1 1" fill="0.502 1 1" mode="-11"
  points="3.92558 1.86345,
 	3.94413 1.81779,
 	3.95697 1.77214,
@@ -4806,7 +4806,7 @@
 <Transform dim="0"
  xcoef=" 0 1 0 0 0 0"
  ycoef=" 0 0 1 0 0 0">
-<Contour name="d01ax11_ddh" comment="ddh_traced_2018-05-22" hidden="true" closed="true" simplified="true" border="0.501961 1 0.501961" fill="0.501961 1 0.501961" mode="11"
+<Contour name="d01ax11_ddh" comment="ddh_traced_2018-05-22" hidden="false" closed="true" simplified="true" border="0.501961 1 0.501961" fill="0.501961 1 0.501961" mode="11"
  points="4.42646 1.57659,
 	4.42789 1.57086,
 	4.43504 1.55942,
