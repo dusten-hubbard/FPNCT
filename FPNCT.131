@@ -5987,7 +5987,7 @@
 <Transform dim="0"
  xcoef=" 0 1 0 0 0 0"
  ycoef=" 0 0 1 0 0 0">
-<Contour name="d01ax22B" comment="LK bouton trace named after cfa" hidden="true" closed="true" simplified="true" border="0 1 1" fill="0.502 1 1" mode="-11"
+<Contour name="d01ax22B" comment="LK bouton trace named after cfa" hidden="false" closed="true" simplified="true" border="0 1 1" fill="0.502 1 1" mode="-11"
  points="5.50192 2.06708,
 	5.50604 2.06296,
 	5.50809 2.05474,
@@ -6023,7 +6023,7 @@
 <Transform dim="0"
  xcoef=" 0 1 0 0 0 0"
  ycoef=" 0 0 1 0 0 0">
-<Contour name="d01ax22B" comment="LK bouton trace named after cfa" hidden="true" closed="true" simplified="true" border="0 1 1" fill="0.502 1 1" mode="-11"
+<Contour name="d01ax22B" comment="LK bouton trace named after cfa" hidden="false" closed="true" simplified="true" border="0 1 1" fill="0.502 1 1" mode="-11"
  points="6.09839 2.1185,
 	6.10045 2.11027,
 	6.10456 2.10616,
@@ -6318,7 +6318,7 @@
 <Transform dim="0"
  xcoef=" 0 1 0 0 0 0"
  ycoef=" 0 0 1 0 0 0">
-<Contour name="d01ax18" comment="LK bouton trace named after cfa" hidden="true" closed="true" simplified="true" border="0 1 1" fill="0.502 1 1" mode="-9"
+<Contour name="d01ax18" comment="LK bouton trace named after cfa" hidden="false" closed="true" simplified="true" border="0 1 1" fill="0.502 1 1" mode="-9"
  points="2.66891 1.96121,
 	2.67001 1.92621,
 	2.67329 1.90871,
@@ -6381,7 +6381,7 @@
 <Transform dim="0"
  xcoef=" 0 1 0 0 0 0"
  ycoef=" 0 0 1 0 0 0">
-<Contour name="d01ax18" comment="LK bouton trace named after cfa" hidden="true" closed="true" simplified="true" border="0 1 1" fill="0.502 1 1" mode="-9"
+<Contour name="d01ax18" comment="LK bouton trace named after cfa" hidden="false" closed="true" simplified="true" border="0 1 1" fill="0.502 1 1" mode="-9"
  points="3.06518 0.429359,
 	3.08075 0.346341,
 	3.09242 0.304832,
@@ -6481,7 +6481,7 @@
 <Transform dim="0"
  xcoef=" 0 1 0 0 0 0"
  ycoef=" 0 0 1 0 0 0">
-<Contour name="d01ax18" comment="LK bouton trace named after cfa" hidden="true" closed="true" simplified="true" border="0 1 1" fill="0.502 1 1" mode="-9"
+<Contour name="d01ax18" comment="LK bouton trace named after cfa" hidden="false" closed="true" simplified="true" border="0 1 1" fill="0.502 1 1" mode="-9"
  points="2.66903 1.94245,
 	2.67455 1.91302,
 	2.67823 1.89831,
@@ -7194,6 +7194,90 @@
 	5.01807 2.16998,
 	4.99933 2.13469,
 	4.99823 2.12587,
+	"/>
+</Transform>
+
+<Transform dim="0"
+ xcoef=" 0 1 0 0 0 0"
+ ycoef=" 0 0 1 0 0 0">
+<Contour name="d01ax32_ddh" comment="ddh_traced_2018-05-30" hidden="false" closed="true" simplified="true" border="0.502 1 0.502" fill="0.502 1 0.502" mode="11"
+ points="4.30183 3.90929,
+	4.31706 3.88061,
+	4.33588 3.85193,
+	4.34574 3.83759,
+	4.35739 3.82325,
+	4.36456 3.81608,
+	4.36815 3.81249,
+	4.37263 3.80532,
+	4.38697 3.79188,
+	4.38966 3.7883,
+	4.39145 3.7865,
+	4.39772 3.77216,
+	4.40131 3.765,
+	4.41565 3.75155,
+	4.42282 3.74617,
+	4.42999 3.74259,
+	4.43716 3.7408,
+	4.44074 3.739,
+	4.45508 3.73811,
+	4.46942 3.74617,
+	4.48376 3.75783,
+	4.4972 3.77127,
+	4.50348 3.77844,
+	4.51781 3.7883,
+	4.54112 3.81698,
+	4.55097 3.83131,
+	4.56263 3.84476,
+	4.57786 3.87344,
+	4.58324 3.88778,
+	4.58593 3.89495,
+	4.58862 3.89853,
+	4.58862 3.90032,
+	4.59041 3.90212,
+	4.59041 3.9057,
+	4.59579 3.92004,
+	4.59847 3.93438,
+	4.60385 3.94872,
+	4.60654 3.95589,
+	4.61012 3.98457,
+	4.60833 4.01325,
+	4.59758 4.04193,
+	4.58951 4.05626,
+	4.58951 4.05806,
+	4.57697 4.0724,
+	4.5698 4.07777,
+	4.55546 4.08494,
+	4.52678 4.09301,
+	4.51961 4.09391,
+	4.49093 4.10645,
+	4.46225 4.10825,
+	4.44791 4.10825,
+	4.43357 4.10645,
+	4.4264 4.10466,
+	4.42282 4.10466,
+	4.40848 4.09839,
+	4.40489 4.09659,
+	4.39145 4.08405,
+	4.38518 4.07688,
+	4.38069 4.06971,
+	4.37711 4.06612,
+	4.36904 4.05178,
+	4.36635 4.0482,
+	4.36456 4.04641,
+	4.36367 4.04282,
+	4.3547 4.02848,
+	4.35022 4.02131,
+	4.34753 4.01414,
+	4.34664 4.01056,
+	4.33857 3.99622,
+	4.31886 3.96754,
+	4.31527 3.96037,
+	4.30989 3.9532,
+	4.309 3.94962,
+	4.30631 3.94603,
+	4.30272 3.93169,
+	4.30183 3.91735,
+	4.30183 3.91018,
 	"/>
 </Transform>
 
