@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE Series SYSTEM "series.dtd">
 
-<Series index="110" viewport="4.03209 4.45584 0.002548"
+<Series index="68" viewport="-0.346025 -3.16926 0.00652358"
 	units="microns"
 	autoSaveSeries="true"
 	autoSaveSection="true"
@@ -29,11 +29,11 @@
 	heightUseProxies="1536"
 	scaleProxies="0.25"
 	significantDigits="6"
-	defaultBorder="0.000 1.000 1.000"
-	defaultFill="0.502 1.000 1.000"
+	defaultBorder="0.502 1.000 0.502"
+	defaultFill="0.502 1.000 0.502"
 	defaultMode="11"
-	defaultName="d01ax22A_ddh"
-	defaultComment="ddh_traced_2018-05-18"
+	defaultName="d03ax10_ddh"
+	defaultComment="ddh_traced_2018-06-18"
 	listSectionThickness="true"
 	listDomainSource="true"
 	listDomainPixelsize="true"
@@ -91,7 +91,7 @@
 		"
 	offset3D="0 0 0"
 	type3Dobject="1"
-	first3Dsection="5"
+	first3Dsection="0"
 	last3Dsection="202"
 	max3Dconnection="-1"
 	upper3Dfaces="true"
@@ -119,7 +119,7 @@
 	ctrlIncrement="0.00439999 0.01 0.01 1.002 1.002 0.004 0.004 0.0002 0.0002"
 	shiftIncrement="0.11 100 100 1.05 1.05 0.1 0.1 0.005 0.005"
 	>
-<Contour name="d01ax22A_ddh" comment="ddh_traced_2018-05-18" closed="true" border="0.000 1.000 1.000" fill="0.502 1.000 1.000" mode="11"
+<Contour name="d03ax09_ddh" comment="ddh_traced_2018-06-18" closed="true" border="0.502 1.000 0.502" fill="0.502 1.000 0.502" mode="11"
  points="-3 1,
 	-3 -1,
 	-1 -3,
@@ -147,7 +147,7 @@
 	-1 2,
 	-4 4,
 	"/>
-<Contour name="pink$+" closed="true" border="1.000 0.000 0.500" fill="1.000 0.000 0.500" mode="-13"
+<Contour name="d03_scalecube" closed="true" border="1.000 0.000 0.500" fill="1.000 0.000 0.500" mode="-13"
  points="-6 -6,
 	6 -6,
 	0 5,
@@ -231,7 +231,7 @@
 	12 0,
 	12 12,
 	"/>
-<Contour name="d01ax21_ddh" comment="ddh_traced_2018-05-31" closed="true" border="0.502 1.000 0.502" fill="0.502 1.000 0.502" mode="11"
+<Contour name="d03ax10_ddh" comment="ddh_traced_2018-06-18" closed="true" border="0.502 1.000 0.502" fill="0.502 1.000 0.502" mode="11"
  points="-3 1,
 	-3 -1,
 	-1 -3,

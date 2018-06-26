@@ -95,15 +95,6 @@
 <Transform dim="6"
  xcoef=" 1.52465206832643 0.842482916587755 -0.051066537178752 0 0 0"
  ycoef=" 0.121046728779486 -0.00840840361546006 0.951684864392145 0 0 0">
-<Contour name="d03p20dia" hidden="false" closed="false" simplified="true" border="0 1 1" fill="0 1 1" mode="9"
- points="8.28619 -0.433604,
-	8.47341 -0.734629,
-	"/>
-</Transform>
-
-<Transform dim="6"
- xcoef=" 1.52465206832643 0.842482916587755 -0.051066537178752 0 0 0"
- ycoef=" 0.121046728779486 -0.00840840361546006 0.951684864392145 0 0 0">
 <Contour name="d05c19" hidden="false" closed="true" simplified="true" border="0 1 0" fill="0 1 0" mode="9"
  points="7.34799 4.2722,
 	7.35716 4.25386,
@@ -1012,7 +1003,7 @@
 <Transform dim="6"
  xcoef=" 1.52465206832643 0.842482916587755 -0.051066537178752 0 0 0"
  ycoef=" 0.121046728779486 -0.00840840361546006 0.951684864392145 0 0 0">
-<Contour name="d03" hidden="false" closed="true" simplified="true" border="1 0 0.5" fill="1 0 0.5" mode="11"
+<Contour name="d03" hidden="false" closed="true" simplified="true" border="1 1 0.501961" fill="1 1 0.501961" mode="11"
  points="8.19701 -0.498926,
 	8.19953 -0.519085,
 	8.19953 -0.529164,
@@ -1063,7 +1054,7 @@
 	8.19701 -0.488847,
 	8.19701 -0.496407,
 	"/>
-<Contour name="d03" hidden="false" closed="true" simplified="true" border="1 0 0.5" fill="1 0 0.5" mode="11"
+<Contour name="d03" hidden="false" closed="true" simplified="true" border="1 1 0.501961" fill="1 1 0.501961" mode="11"
  points="7.55193 -0.28978,
 	7.55949 -0.309939,
 	7.56705 -0.320018,
@@ -1171,7 +1162,7 @@
 <Transform dim="6"
  xcoef=" 1.52465206832643 0.842482916587755 -0.051066537178752 0 0 0"
  ycoef=" 0.121046728779486 -0.00840840361546006 0.951684864392145 0 0 0">
-<Contour name="d03" hidden="false" closed="true" simplified="true" border="1 0 0.5" fill="1 0 0.5" mode="11"
+<Contour name="d03" hidden="false" closed="true" simplified="true" border="1 1 0.501961" fill="1 1 0.501961" mode="11"
  points="7.91983 -1.26747,
 	7.92487 -1.28763,
 	7.92487 -1.29267,
@@ -1481,7 +1472,7 @@
 <Transform dim="6"
  xcoef=" 1.52465206832643 0.842482916587755 -0.051066537178752 0 0 0"
  ycoef=" 0.121046728779486 -0.00840840361546006 0.951684864392145 0 0 0">
-<Contour name="d09" hidden="false" closed="true" simplified="true" border="0 1 0" fill="0 1 0" mode="11"
+<Contour name="d09" hidden="false" closed="true" simplified="true" border="1 1 0.501961" fill="1 1 0.501961" mode="11"
  points="7.41823 0.0994709,
 	7.42397 0.0841677,
 	7.42397 0.0803419,
