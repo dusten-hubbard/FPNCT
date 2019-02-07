@@ -3,9 +3,22 @@
 
 <Section index="22" thickness="0.048" alignLocked="true">
 <Transform dim="6"
+ xcoef=" 0.352305667017713 0.914469466316788 0.0354086425442942 0 0 0"
+ ycoef=" 0.785041929356143 -0.0544320166333272 0.990713769141131 0 0 0">
+<Image mag="0.00220626" contrast="1" brightness="0" red="true" green="true" blue="true"
+ src="FPNCT.22.jpg" />
+<Contour name="domain1" hidden="false" closed="true" simplified="false" border="1 0 1" fill="1 0 1" mode="11"
+ points="0 0,
+	4096 0,
+	4096 4096,
+	0 4096,
+	"/>
+</Transform>
+
+<Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="mito2" hidden="true" closed="false" simplified="true" border="1 0.5 0" fill="1 0.5 0" mode="13"
+<Contour name="mito2" hidden="false" closed="false" simplified="true" border="1 0.5 0" fill="1 0.5 0" mode="13"
  points="8.23408 5.05227,
 	8.42464 5.01472,
 	"/>
@@ -14,7 +27,7 @@
 <Transform dim="6"
  xcoef=" -0.177492250771548 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" -0.0755473548834642 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="D04" hidden="true" closed="true" simplified="true" border="1 0 0" fill="1 0 0" mode="13"
+<Contour name="D04_high_caliber" hidden="false" closed="true" simplified="true" border="1 0 0" fill="1 0 0" mode="13"
  points="1.48509 3.96394,
 	1.49282 3.91173,
 	1.51566 3.86197,
@@ -49,7 +62,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="D06" hidden="true" closed="true" simplified="true" border="0 0 1" fill="0 0 1" mode="9"
+<Contour name="D06_mid-caliber" hidden="false" closed="true" simplified="true" border="0 0 1" fill="0 0 1" mode="9"
  points="6.3912 7.6708,
 	6.39535 7.62803,
 	6.40762 7.58714,
@@ -86,7 +99,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="D07" hidden="true" closed="true" simplified="true" border="1 0 1" fill="1 0 1" mode="9"
+<Contour name="D07_noSymmetric" hidden="false" closed="true" simplified="true" border="1 0 1" fill="1 0 1" mode="9"
  points="5.28994 6.95878,
 	5.29908 6.92162,
 	5.3256 6.8881,
@@ -206,7 +219,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="D08" hidden="true" closed="true" simplified="true" border="1 0 0" fill="1 0 0" mode="9"
+<Contour name="D08" hidden="false" closed="true" simplified="true" border="1 0 0" fill="1 0 0" mode="9"
  points="6.79816 3.42342,
 	6.80336 3.36215,
 	6.81847 3.30689,
@@ -232,7 +245,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="mito JB13" hidden="true" closed="false" simplified="true" border="1 0.5 0" fill="1 0.5 0" mode="9"
+<Contour name="mito JB13" hidden="false" closed="false" simplified="true" border="1 0.5 0" fill="1 0.5 0" mode="9"
  points="4.82112 7.79702,
 	5.08405 7.76264,
 	"/>
@@ -241,7 +254,7 @@
 <Transform dim="6"
  xcoef=" -0.0774922507715485 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.0644526451165361 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="D13" hidden="true" closed="true" simplified="true" border="0.5 0 1" fill="0.5 0 1" mode="9"
+<Contour name="D13_high caliber" hidden="false" closed="true" simplified="true" border="0.5 0 1" fill="0.5 0 1" mode="9"
  points="2.63438 1.83344,
 	2.64248 1.75517,
 	2.66636 1.68083,
@@ -270,7 +283,7 @@
 	2.70483 2.05273,
 	2.66636 1.98604,
 	"/>
-<Contour name="D12" hidden="true" closed="true" simplified="true" border="1 0.5 0" fill="1 0.5 0" mode="9"
+<Contour name="D12_high Caliber" hidden="false" closed="true" simplified="true" border="1 0.5 0" fill="1 0.5 0" mode="9"
  points="4.93362 5.94034,
 	4.94389 5.85587,
 	4.97389 5.77824,
@@ -299,7 +312,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d13" hidden="true" closed="true" simplified="true" border="1 1 0" fill="1 1 0" mode="11"
+<Contour name="d13" hidden="false" closed="true" simplified="true" border="1 1 0" fill="1 1 0" mode="11"
  points="3.21129 3.75568,
 	3.27887 3.67559,
 	3.28262 3.59549,
@@ -336,7 +349,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d13" hidden="true" closed="true" simplified="true" border="1 1 0" fill="1 1 0" mode="11"
+<Contour name="d13" hidden="false" closed="true" simplified="true" border="1 1 0" fill="1 1 0" mode="11"
  points="3.70297 3.11119,
 	3.73568 3.10097,
 	3.73977 3.09995,
@@ -377,7 +390,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d13" hidden="true" closed="true" simplified="true" border="1 1 0" fill="1 1 0" mode="11"
+<Contour name="d13" hidden="false" closed="true" simplified="true" border="1 1 0" fill="1 1 0" mode="11"
  points="4.59419 2.91976,
 	4.59784 2.89054,
 	4.62706 2.83211,
@@ -430,7 +443,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d13p06" hidden="true" closed="true" simplified="false" border="0 0 1" fill="0 0 1" mode="9"
+<Contour name="d13p06" hidden="false" closed="true" simplified="false" border="0 0 1" fill="0 0 1" mode="9"
  points="3.31881 1.09703,
 	3.30181 1.08004,
 	3.31881 1.06304,
@@ -441,7 +454,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d13" hidden="true" closed="true" simplified="true" border="1 1 0" fill="1 1 0" mode="11"
+<Contour name="d13" hidden="false" closed="true" simplified="true" border="1 1 0" fill="1 1 0" mode="11"
  points="2.98361 0.178266,
 	2.98361 0.173541,
 	2.98676 0.168817,
@@ -562,7 +575,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d13" hidden="true" closed="true" simplified="true" border="1 1 0" fill="1 1 0" mode="11"
+<Contour name="d13" hidden="false" closed="true" simplified="true" border="1 1 0" fill="1 1 0" mode="11"
  points="1.49793 2.85312,
 	1.5276 2.79379,
 	1.53501 2.77896,
@@ -607,7 +620,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d13" hidden="true" closed="true" simplified="true" border="1 1 0" fill="1 1 0" mode="11"
+<Contour name="d13" hidden="false" closed="true" simplified="true" border="1 1 0" fill="1 1 0" mode="11"
  points="2.89334 3.1018,
 	2.90971 3.06688,
 	2.91735 3.04941,
@@ -645,7 +658,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d13" hidden="true" closed="true" simplified="true" border="1 1 0.501961" fill="0.5 0 1" mode="11"
+<Contour name="d13" hidden="false" closed="true" simplified="true" border="1 1 0.501961" fill="0.5 0 1" mode="11"
  points="3.3079 1.03428,
 	"/>
 </Transform>
@@ -653,7 +666,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d13" hidden="true" closed="true" simplified="true" border="1 1 0" fill="1 1 0" mode="11"
+<Contour name="d13" hidden="false" closed="true" simplified="true" border="1 1 0" fill="1 1 0" mode="11"
  points="3.91138 2.44742,
 	3.94012 2.43395,
 	3.94731 2.43125,
@@ -687,7 +700,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d13" hidden="true" closed="true" simplified="true" border="1 1 0" fill="1 1 0" mode="11"
+<Contour name="d13" hidden="false" closed="true" simplified="true" border="1 1 0" fill="1 1 0" mode="11"
  points="2.56941 3.14009,
 	2.57888 3.12927,
 	2.58158 3.12657,
@@ -728,7 +741,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d13" hidden="true" closed="true" simplified="true" border="1 1 0.501961" fill="0.5 0 1" mode="11"
+<Contour name="d13" hidden="false" closed="true" simplified="true" border="1 1 0.501961" fill="0.5 0 1" mode="11"
  points="2.29968 1.55703,
 	2.34861 1.46493,
 	2.37739 1.41889,
@@ -869,7 +882,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d13" hidden="true" closed="true" simplified="true" border="1 1 0" fill="1 1 0" mode="11"
+<Contour name="d13" hidden="false" closed="true" simplified="true" border="1 1 0" fill="1 1 0" mode="11"
  points="0.0132308 0.746805,
 	0.0205812 0.723284,
 	0.0220513 0.717403,
@@ -972,7 +985,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d04" hidden="true" closed="true" simplified="true" border="1 0 0" fill="1 0 0" mode="11"
+<Contour name="d04" hidden="false" closed="true" simplified="true" border="1 0 0" fill="1 0 0" mode="11"
  points="1.53771 2.26685,
 	1.5519 2.24415,
 	1.57176 2.22997,
@@ -1026,7 +1039,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d04" hidden="true" closed="true" simplified="true" border="1 0 0" fill="1 0 0" mode="11"
+<Contour name="d04" hidden="false" closed="true" simplified="true" border="1 0 0" fill="1 0 0" mode="11"
  points="3.15431 5.89376,
 	3.174 5.80376,
 	3.1754 5.79251,
@@ -1059,7 +1072,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d04" hidden="true" closed="true" simplified="true" border="1 0 0" fill="1 0 0" mode="11"
+<Contour name="d04" hidden="false" closed="true" simplified="true" border="1 0 0" fill="1 0 0" mode="11"
  points="0.926323 3.95177,
 	0.928377 3.94971,
 	0.932485 3.95177,
@@ -1092,7 +1105,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d04" hidden="true" closed="true" simplified="true" border="1 0 0" fill="1 0 0" mode="11"
+<Contour name="d04" hidden="false" closed="true" simplified="true" border="1 0 0" fill="1 0 0" mode="11"
  points="2.45825 4.05576,
 	2.46504 4.06029,
 	2.45825 4.06029,
@@ -1102,7 +1115,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d04" hidden="true" closed="true" simplified="true" border="1 0 0" fill="1 0 0" mode="11"
+<Contour name="d04" hidden="false" closed="true" simplified="true" border="1 0 0" fill="1 0 0" mode="11"
  points="1.83819 3.58732,
 	1.85629 3.57374,
 	1.86987 3.55564,
@@ -1292,7 +1305,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d13c06" hidden="true" closed="true" simplified="true" border="0 0 1" fill="0 0 1" mode="11"
+<Contour name="d13c06" hidden="false" closed="true" simplified="true" border="0 0 1" fill="0 0 1" mode="11"
  points="3.12583 0.160058,
 	3.13211 0.147504,
 	3.13524 0.141227,
@@ -1311,7 +1324,7 @@
 	3.12897 0.163196,
 	3.12583 0.161627,
 	"/>
-<Contour name="d13c06" hidden="true" closed="true" simplified="true" border="0 0 1" fill="0 0 1" mode="11"
+<Contour name="d13c06" hidden="false" closed="true" simplified="true" border="0 0 1" fill="0 0 1" mode="11"
  points="3.45536 0.301285,
 	3.48047 0.279316,
 	3.48361 0.277747,
@@ -1327,7 +1340,7 @@
 	3.46007 0.304423,
 	3.45693 0.302854,
 	"/>
-<Contour name="d13c06" hidden="true" closed="true" simplified="true" border="0 0 1" fill="0 0 1" mode="11"
+<Contour name="d13c06" hidden="false" closed="true" simplified="true" border="0 0 1" fill="0 0 1" mode="11"
  points="3.57305 0.304423,
 	3.59345 0.279316,
 	3.60443 0.266763,
@@ -1348,7 +1361,7 @@
 	3.57619 0.305992,
 	3.57462 0.305992,
 	"/>
-<Contour name="d13c06" hidden="true" closed="true" simplified="true" border="0 0 1" fill="0 0 1" mode="11"
+<Contour name="d13c06" hidden="false" closed="true" simplified="true" border="0 0 1" fill="0 0 1" mode="11"
  points="3.77861 0.172611,
 	3.87904 0.128674,
 	3.92926 0.103567,
@@ -1373,22 +1386,22 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d13cfa06" hidden="true" closed="false" simplified="false" border="0 0 1" fill="0 0 1" mode="9"
+<Contour name="d13cfa06" hidden="false" closed="false" simplified="false" border="0 0 1" fill="0 0 1" mode="9"
  points="3.31188 0.161707,
 	3.25539 0.156999,
 	3.12358 0.15543,
 	"/>
-<Contour name="d13cfa06" hidden="true" closed="false" simplified="false" border="0 0 1" fill="0 0 1" mode="9"
+<Contour name="d13cfa06" hidden="false" closed="false" simplified="false" border="0 0 1" fill="0 0 1" mode="9"
  points="3.56766 0.323333,
 	3.55824 0.328041,
 	3.45625 0.288811,
 	"/>
-<Contour name="d13cfa06" hidden="true" closed="false" simplified="false" border="0 0 1" fill="0 0 1" mode="9"
+<Contour name="d13cfa06" hidden="false" closed="false" simplified="false" border="0 0 1" fill="0 0 1" mode="9"
  points="3.70889 0.233889,
 	3.67907 0.248012,
 	3.58021 0.304503,
 	"/>
-<Contour name="d13cfa06" hidden="true" closed="false" simplified="false" border="0 0 1" fill="0 0 1" mode="9"
+<Contour name="d13cfa06" hidden="false" closed="false" simplified="false" border="0 0 1" fill="0 0 1" mode="9"
  points="3.96623 0.106785,
 	3.88307 0.15543,
 	3.79048 0.188383,
@@ -1398,7 +1411,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d01" hidden="false" closed="true" simplified="true" border="1 1 0" fill="1 0.5 0" mode="9"
+<Contour name="d01" hidden="false" closed="true" simplified="true" border="1 1 0" fill="0 1 1" mode="-9"
  points="4.38706 4.95842,
 	4.3937 4.94956,
 	4.41142 4.9407,
@@ -1437,7 +1450,7 @@
 	4.38927 4.97613,
 	4.38706 4.96063,
 	"/>
-<Contour name="d01" hidden="false" closed="true" simplified="true" border="1 1 0" fill="1 0.5 0" mode="9"
+<Contour name="d01" hidden="false" closed="true" simplified="true" border="1 1 0" fill="0 1 1" mode="-9"
  points="4.04823 4.17003,
 	4.0593 4.15232,
 	4.07481 4.13681,
@@ -1555,7 +1568,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d01" hidden="false" closed="true" simplified="true" border="1 1 0" fill="1 0.5 0" mode="9"
+<Contour name="d01" hidden="false" closed="true" simplified="true" border="1 1 0" fill="0 1 1" mode="-9"
  points="4.03856 2.36703,
 	4.05901 2.32027,
 	4.09408 2.27936,
@@ -1622,7 +1635,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d01" hidden="false" closed="true" simplified="true" border="1 1 0" fill="1 0.5 0" mode="9"
+<Contour name="d01" hidden="false" closed="true" simplified="true" border="1 1 0" fill="0 1 1" mode="-9"
  points="5.13341 4.15311,
 	5.14141 4.14031,
 	5.14461 4.13392,
@@ -1780,7 +1793,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d02" hidden="true" closed="true" simplified="true" border="0.5 0 1" fill="0.5 0 1" mode="11"
+<Contour name="d02" hidden="false" closed="true" simplified="true" border="0.5 0 1" fill="0.5 0 1" mode="11"
  points="6.44335 4.36968,
 	6.44763 4.35258,
 	6.45618 4.33761,
@@ -1817,7 +1830,7 @@
 	6.44335 4.37609,
 	6.44335 4.37182,
 	"/>
-<Contour name="d02" hidden="true" closed="true" simplified="true" border="0.5 0 1" fill="0.5 0 1" mode="11"
+<Contour name="d02" hidden="false" closed="true" simplified="true" border="0.5 0 1" fill="0.5 0 1" mode="11"
  points="7.13387 4.23927,
 	7.14455 4.22431,
 	7.17662 4.20079,
@@ -1856,7 +1869,7 @@
 	7.13387 4.24996,
 	7.13387 4.24141,
 	"/>
-<Contour name="d02" hidden="true" closed="true" simplified="true" border="0.5 0 1" fill="0.5 0 1" mode="11"
+<Contour name="d02" hidden="false" closed="true" simplified="true" border="0.5 0 1" fill="0.5 0 1" mode="11"
  points="5.5583 3.60648,
 	5.56258 3.60221,
 	5.56258 3.59793,
@@ -2055,7 +2068,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d02" hidden="true" closed="true" simplified="true" border="0.5 0 1" fill="0.5 0 1" mode="11"
+<Contour name="d02" hidden="false" closed="true" simplified="true" border="0.5 0 1" fill="0.5 0 1" mode="11"
  points="4.95758 3.84164,
 	4.98964 3.81812,
 	4.99819 3.81385,
@@ -2106,7 +2119,7 @@
 	4.95758 3.84592,
 	4.95758 3.84378,
 	"/>
-<Contour name="d02" hidden="true" closed="true" simplified="true" border="0.5 0 1" fill="0.5 0 1" mode="11"
+<Contour name="d02" hidden="false" closed="true" simplified="true" border="0.5 0 1" fill="0.5 0 1" mode="11"
  points="4.94475 3.45897,
 	4.94689 3.45042,
 	4.95544 3.44187,
@@ -2173,7 +2186,7 @@
 	4.94475 3.46539,
 	4.94475 3.46111,
 	"/>
-<Contour name="d02" hidden="true" closed="true" simplified="true" border="0.5 0 1" fill="0.5 0 1" mode="11"
+<Contour name="d02" hidden="false" closed="true" simplified="true" border="0.5 0 1" fill="0.5 0 1" mode="11"
  points="4.54498 2.99721,
 	4.54926 2.99293,
 	4.55139 2.98438,
@@ -2221,307 +2234,307 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.5774 4.51225,
 	4.56788 4.50273,
 	4.5774 4.49322,
 	4.58691 4.50273,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.54068 4.51497,
 	4.53117 4.50545,
 	4.54068 4.49594,
 	4.5502 4.50545,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.4659 4.54761,
 	4.45638 4.53809,
 	4.4659 4.52857,
 	4.47542 4.53809,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.42239 4.54896,
 	4.41287 4.53945,
 	4.42239 4.52993,
 	4.43191 4.53945,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.42239 4.57072,
 	4.41287 4.5612,
 	4.42239 4.55168,
 	4.43191 4.5612,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.45638 4.58024,
 	4.44686 4.57072,
 	4.45638 4.5612,
 	4.4659 4.57072,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.46182 4.60743,
 	4.4523 4.59792,
 	4.46182 4.5884,
 	4.47134 4.59792,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.49309 4.58976,
 	4.48357 4.58024,
 	4.49309 4.57072,
 	4.50261 4.58024,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.5366 4.57208,
 	4.52709 4.56256,
 	4.5366 4.55304,
 	4.54612 4.56256,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.57332 4.61151,
 	4.5638 4.60199,
 	4.57332 4.59248,
 	4.58283 4.60199,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.52573 4.62375,
 	4.51621 4.61423,
 	4.52573 4.60471,
 	4.53524 4.61423,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.53796 4.6591,
 	4.52845 4.64958,
 	4.53796 4.64007,
 	4.54748 4.64958,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.58148 4.68494,
 	4.57196 4.67542,
 	4.58148 4.6659,
 	4.59099 4.67542,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.57332 4.72845,
 	4.5638 4.71893,
 	4.57332 4.70941,
 	4.58283 4.71893,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.60051 4.75836,
 	4.59099 4.74884,
 	4.60051 4.73933,
 	4.61003 4.74884,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.64402 4.74341,
 	4.6345 4.73389,
 	4.64402 4.72437,
 	4.65354 4.73389,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.64946 4.69718,
 	4.63994 4.68766,
 	4.64946 4.67814,
 	4.65898 4.68766,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.60051 4.81411,
 	4.59099 4.80459,
 	4.60051 4.79508,
 	4.61003 4.80459,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.55972 4.78284,
 	4.5502 4.77332,
 	4.55972 4.7638,
 	4.56924 4.77332,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.53796 4.80595,
 	4.52845 4.79644,
 	4.53796 4.78692,
 	4.54748 4.79644,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.50669 4.83179,
 	4.49717 4.82227,
 	4.50669 4.81275,
 	4.51621 4.82227,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.50261 4.8617,
 	4.49309 4.85218,
 	4.50261 4.84267,
 	4.51213 4.85218,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.48357 4.88618,
 	4.47406 4.87666,
 	4.48357 4.86714,
 	4.49309 4.87666,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.39655 4.87666,
 	4.38703 4.86714,
 	4.39655 4.85762,
 	4.40607 4.86714,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.45502 4.79915,
 	4.4455 4.78964,
 	4.45502 4.78012,
 	4.46454 4.78964,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.50397 4.791,
 	4.49445 4.78148,
 	4.50397 4.77196,
 	4.51349 4.78148,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.54068 4.74613,
 	4.53117 4.73661,
 	4.54068 4.72709,
 	4.5502 4.73661,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.52437 4.73933,
 	4.51485 4.72981,
 	4.52437 4.72029,
 	4.53388 4.72981,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.5366 4.69989,
 	4.52709 4.69038,
 	4.5366 4.68086,
 	4.54612 4.69038,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.49309 4.74341,
 	4.48357 4.73389,
 	4.49309 4.72437,
 	4.50261 4.73389,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.48629 4.70397,
 	4.47678 4.69446,
 	4.48629 4.68494,
 	4.49581 4.69446,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.44822 4.66046,
 	4.4387 4.65094,
 	4.44822 4.64143,
 	4.45774 4.65094,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.40199 4.62239,
 	4.39247 4.61287,
 	4.40199 4.60335,
 	4.41151 4.61287,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.36392 4.59792,
 	4.3544 4.5884,
 	4.36392 4.57888,
 	4.37344 4.5884,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.31769 4.59792,
 	4.30817 4.5884,
 	4.31769 4.57888,
 	4.32721 4.5884,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.29593 4.63735,
 	4.28641 4.62783,
 	4.29593 4.61831,
 	4.30545 4.62783,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.31769 4.71485,
 	4.30817 4.70533,
 	4.31769 4.69582,
 	4.32721 4.70533,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.36936 4.71485,
 	4.35984 4.70533,
 	4.36936 4.69582,
 	4.37888 4.70533,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.3476 4.76516,
 	4.33808 4.75564,
 	4.3476 4.74613,
 	4.35712 4.75564,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.2769 4.69174,
 	4.26738 4.68222,
 	4.2769 4.6727,
 	4.28641 4.68222,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.38024 4.6659,
 	4.37072 4.65638,
 	4.38024 4.64687,
 	4.38975 4.65638,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.40743 4.72981,
 	4.39791 4.72029,
 	4.40743 4.71077,
 	4.41695 4.72029,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.40879 4.7842,
 	4.39927 4.77468,
 	4.40879 4.76516,
 	4.41831 4.77468,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.38295 4.77468,
 	4.37344 4.76516,
 	4.38295 4.75564,
 	4.39247 4.76516,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.44686 4.75972,
 	4.43734 4.7502,
 	4.44686 4.74069,
 	4.45638 4.7502,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.32041 4.80459,
 	4.31089 4.79508,
 	4.32041 4.78556,
 	4.32993 4.79508,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.28641 4.7842,
 	4.2769 4.77468,
 	4.28641 4.76516,
 	4.29593 4.77468,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.24698 4.74749,
 	4.23746 4.73797,
 	4.24698 4.72845,
 	4.2565 4.73797,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.21843 4.77876,
 	4.20891 4.76924,
 	4.21843 4.75972,
 	4.22795 4.76924,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.23203 4.85762,
 	4.22251 4.84811,
 	4.23203 4.83859,
 	4.24154 4.84811,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.18851 4.82227,
 	4.179 4.81275,
 	4.18851 4.80323,
@@ -2532,13 +2545,13 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.63586 4.48098,
 	4.62635 4.47146,
 	4.63586 4.46194,
 	4.64538 4.47146,
 	"/>
-<Contour name="d01ax02ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax02ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.6345 4.54217,
 	4.62499 4.53265,
 	4.6345 4.52313,
@@ -2549,25 +2562,25 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d01ax31ssvda" hidden="true" closed="true" simplified="false" border="1 0 0" fill="0 0 1" mode="-11"
+<Contour name="d01ax31ssvda" hidden="false" closed="true" simplified="false" border="1 0 0" fill="0 0 1" mode="-11"
  points="4.12806 4.44826,
 	4.12109 4.44129,
 	4.12806 4.43432,
 	4.13503 4.44129,
 	"/>
-<Contour name="d01ax31ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax31ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.13503 4.36161,
 	4.12806 4.35464,
 	4.13503 4.34767,
 	4.14201 4.35464,
 	"/>
-<Contour name="d01ax31ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax31ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.0932 4.40444,
 	4.08623 4.39747,
 	4.0932 4.3905,
 	4.10017 4.39747,
 	"/>
-<Contour name="d01ax31ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax31ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.04639 4.4134,
 	4.03942 4.40643,
 	4.04639 4.39946,
@@ -2578,349 +2591,349 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d01ax03ssvda" hidden="true" closed="true" simplified="false" border="1 0 0" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvda" hidden="false" closed="true" simplified="false" border="1 0 0" fill="0 0 1" mode="-11"
  points="5.7358 4.75508,
 	5.72562 4.74491,
 	5.7358 4.73474,
 	5.74597 4.74491,
 	"/>
-<Contour name="d01ax03ssvda" hidden="true" closed="true" simplified="false" border="1 0 0" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvda" hidden="false" closed="true" simplified="false" border="1 0 0" fill="0 0 1" mode="-11"
  points="5.69947 4.70858,
 	5.6893 4.69841,
 	5.69947 4.68824,
 	5.70964 4.69841,
 	"/>
-<Contour name="d01ax03ssvda" hidden="true" closed="true" simplified="false" border="1 0 0" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvda" hidden="false" closed="true" simplified="false" border="1 0 0" fill="0 0 1" mode="-11"
  points="5.49458 4.67225,
 	5.48441 4.66208,
 	5.49458 4.65191,
 	5.50476 4.66208,
 	"/>
-<Contour name="d01ax03ssvda" hidden="true" closed="true" simplified="false" border="1 0 0" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvda" hidden="false" closed="true" simplified="false" border="1 0 0" fill="0 0 1" mode="-11"
  points="5.54835 4.67661,
 	5.53818 4.66644,
 	5.54835 4.65627,
 	5.55852 4.66644,
 	"/>
-<Contour name="d01ax03ssvda" hidden="true" closed="true" simplified="false" border="1 0 0" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvda" hidden="false" closed="true" simplified="false" border="1 0 0" fill="0 0 1" mode="-11"
  points="5.37107 4.64174,
 	5.3609 4.63157,
 	5.37107 4.6214,
 	5.38124 4.63157,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.77212 4.80594,
 	5.76195 4.79576,
 	5.77212 4.78559,
 	5.78229 4.79576,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.78665 4.85098,
 	5.77648 4.84081,
 	5.78665 4.83064,
 	5.79683 4.84081,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.75905 4.89603,
 	5.74887 4.88586,
 	5.75905 4.87568,
 	5.76922 4.88586,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.71836 4.84808,
 	5.70819 4.8379,
 	5.71836 4.82773,
 	5.72853 4.8379,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.70092 4.90765,
 	5.69075 4.89748,
 	5.70092 4.88731,
 	5.71109 4.89748,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.69366 4.87278,
 	5.68349 4.86261,
 	5.69366 4.85244,
 	5.70383 4.86261,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.6922 4.84808,
 	5.68203 4.8379,
 	5.6922 4.82773,
 	5.70238 4.8379,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.68349 4.8103,
 	5.67331 4.80012,
 	5.68349 4.78995,
 	5.69366 4.80012,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.70238 4.80012,
 	5.6922 4.78995,
 	5.70238 4.77978,
 	5.71255 4.78995,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.67186 4.77397,
 	5.66169 4.7638,
 	5.67186 4.75363,
 	5.68203 4.7638,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.64861 4.73328,
 	5.63844 4.72311,
 	5.64861 4.71294,
 	5.65878 4.72311,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.5963 4.73619,
 	5.58613 4.72602,
 	5.5963 4.71585,
 	5.60647 4.72602,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.55997 4.72166,
 	5.5498 4.71149,
 	5.55997 4.70131,
 	5.57014 4.71149,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.5498 4.75653,
 	5.53963 4.74636,
 	5.5498 4.73619,
 	5.55997 4.74636,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.49023 4.73474,
 	5.48005 4.72456,
 	5.49023 4.71439,
 	5.5004 4.72456,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.44954 4.73474,
 	5.43937 4.72456,
 	5.44954 4.71439,
 	5.45971 4.72456,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.55997 4.80739,
 	5.5498 4.79722,
 	5.55997 4.78705,
 	5.57014 4.79722,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.58613 4.8132,
 	5.57596 4.80303,
 	5.58613 4.79286,
 	5.5963 4.80303,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.62246 4.82483,
 	5.61228 4.81465,
 	5.62246 4.80448,
 	5.63263 4.81465,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.62681 4.87278,
 	5.61664 4.86261,
 	5.62681 4.85244,
 	5.63699 4.86261,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.66169 4.91056,
 	5.65152 4.90039,
 	5.66169 4.89022,
 	5.67186 4.90039,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.68784 4.95415,
 	5.67767 4.94398,
 	5.68784 4.93381,
 	5.69802 4.94398,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.74306 4.99774,
 	5.73289 4.98757,
 	5.74306 4.9774,
 	5.75323 4.98757,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.76631 5.00791,
 	5.75614 4.99774,
 	5.76631 4.98757,
 	5.77648 4.99774,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.74597 5.03407,
 	5.7358 5.0239,
 	5.74597 5.01373,
 	5.75614 5.0239,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.71836 5.05296,
 	5.70819 5.04279,
 	5.71836 5.03262,
 	5.72853 5.04279,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.67186 5.08057,
 	5.66169 5.0704,
 	5.67186 5.06023,
 	5.68203 5.0704,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.62827 5.04569,
 	5.6181 5.03552,
 	5.62827 5.02535,
 	5.63844 5.03552,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.67622 5.01227,
 	5.66605 5.0021,
 	5.67622 4.99193,
 	5.68639 5.0021,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.62972 4.95851,
 	5.61955 4.94834,
 	5.62972 4.93817,
 	5.63989 4.94834,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.60211 4.93235,
 	5.59194 4.92218,
 	5.60211 4.91201,
 	5.61228 4.92218,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.56869 4.88004,
 	5.55852 4.86987,
 	5.56869 4.8597,
 	5.57886 4.86987,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.53672 4.91201,
 	5.52655 4.90184,
 	5.53672 4.89167,
 	5.5469 4.90184,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.55125 4.94253,
 	5.54108 4.93235,
 	5.55125 4.92218,
 	5.56143 4.93235,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.55852 5.00791,
 	5.54835 4.99774,
 	5.55852 4.98757,
 	5.56869 4.99774,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.52655 4.95706,
 	5.51638 4.94689,
 	5.52655 4.93671,
 	5.53672 4.94689,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.51638 5.01082,
 	5.50621 5.00065,
 	5.51638 4.99048,
 	5.52655 5.00065,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.55852 5.06313,
 	5.54835 5.05296,
 	5.55852 5.04279,
 	5.56869 5.05296,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.58032 5.10672,
 	5.57014 5.09655,
 	5.58032 5.08638,
 	5.59049 5.09655,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.57741 5.14886,
 	5.56724 5.13869,
 	5.57741 5.12852,
 	5.58758 5.13869,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.61228 5.16775,
 	5.60211 5.15758,
 	5.61228 5.14741,
 	5.62246 5.15758,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.53382 5.18374,
 	5.52365 5.17357,
 	5.53382 5.16339,
 	5.54399 5.17357,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.53527 5.13724,
 	5.5251 5.12707,
 	5.53527 5.1169,
 	5.54544 5.12707,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.51493 5.08929,
 	5.50476 5.07912,
 	5.51493 5.06894,
 	5.5251 5.07912,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.49023 5.16194,
 	5.48005 5.15177,
 	5.49023 5.1416,
 	5.5004 5.15177,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.48151 5.12997,
 	5.47134 5.1198,
 	5.48151 5.10963,
 	5.49168 5.1198,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.46116 5.08493,
 	5.45099 5.07476,
 	5.46116 5.06458,
 	5.47134 5.07476,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.4539 5.04569,
 	5.44373 5.03552,
 	5.4539 5.02535,
 	5.46407 5.03552,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.4292 5.13433,
 	5.41902 5.12416,
 	5.4292 5.11399,
 	5.43937 5.12416,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.40304 5.08929,
 	5.39287 5.07912,
 	5.40304 5.06894,
 	5.41321 5.07912,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.37107 5.05877,
 	5.3609 5.0486,
 	5.37107 5.03843,
 	5.38124 5.0486,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.46988 4.83936,
 	5.45971 4.82919,
 	5.46988 4.81901,
 	5.48005 4.82919,
 	"/>
-<Contour name="d01ax03ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax03ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="5.25483 4.75653,
 	5.24466 4.74636,
 	5.25483 4.73619,
@@ -2931,193 +2944,193 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.55142 2.04587,
 	4.5404 2.03485,
 	4.55142 2.02383,
 	4.56244 2.03485,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.53883 2.08208,
 	4.52781 2.07106,
 	4.53883 2.06004,
 	4.54985 2.07106,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.58291 2.0994,
 	4.57189 2.08838,
 	4.58291 2.07736,
 	4.59393 2.08838,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.64903 2.13718,
 	4.63801 2.12616,
 	4.64903 2.11514,
 	4.66005 2.12616,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.58134 2.19071,
 	4.57032 2.17969,
 	4.58134 2.16867,
 	4.59236 2.17969,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.54513 2.18599,
 	4.53411 2.17497,
 	4.54513 2.16395,
 	4.55615 2.17497,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.51836 2.1545,
 	4.50734 2.14348,
 	4.51836 2.13246,
 	4.52938 2.14348,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.48687 2.10727,
 	4.47585 2.09625,
 	4.48687 2.08523,
 	4.4979 2.09625,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.47585 2.07893,
 	4.46483 2.06791,
 	4.47585 2.05689,
 	4.48687 2.06791,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.40658 1.98762,
 	4.39556 1.9766,
 	4.40658 1.96558,
 	4.4176 1.9766,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.39871 2.0254,
 	4.38769 2.01438,
 	4.39871 2.00336,
 	4.40973 2.01438,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.35306 2.06161,
 	4.34204 2.05059,
 	4.35306 2.03957,
 	4.36408 2.05059,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.35306 2.10727,
 	4.34204 2.09625,
 	4.35306 2.08523,
 	4.36408 2.09625,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.37825 2.1482,
 	4.36722 2.13718,
 	4.37825 2.12616,
 	4.38927 2.13718,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.38139 2.19071,
 	4.37037 2.17969,
 	4.38139 2.16867,
 	4.39241 2.17969,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.34361 2.17497,
 	4.33259 2.16395,
 	4.34361 2.15293,
 	4.35463 2.16395,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.31212 2.16552,
 	4.3011 2.1545,
 	4.31212 2.14348,
 	4.32314 2.1545,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.27276 2.12774,
 	4.26174 2.11672,
 	4.27276 2.10569,
 	4.28378 2.11672,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.23813 2.1419,
 	4.22711 2.13088,
 	4.23813 2.11986,
 	4.24915 2.13088,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.27119 2.2159,
 	4.26017 2.20488,
 	4.27119 2.19386,
 	4.28221 2.20488,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.2948 2.24739,
 	4.28378 2.23637,
 	4.2948 2.22535,
 	4.30583 2.23637,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.29953 2.28045,
 	4.28851 2.26943,
 	4.29953 2.25841,
 	4.31055 2.26943,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.34518 2.23322,
 	4.33416 2.2222,
 	4.34518 2.21118,
 	4.3562 2.2222,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.41131 2.24424,
 	4.40029 2.23322,
 	4.41131 2.2222,
 	4.42233 2.23322,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.42862 2.29462,
 	4.4176 2.2836,
 	4.42862 2.27258,
 	4.43964 2.2836,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.38454 2.33398,
 	4.37352 2.32295,
 	4.38454 2.31193,
 	4.39556 2.32295,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.46326 2.25211,
 	4.45224 2.24109,
 	4.46326 2.23007,
 	4.47428 2.24109,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.47585 2.2222,
 	4.46483 2.21118,
 	4.47585 2.20016,
 	4.48687 2.21118,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.50734 2.23794,
 	4.49632 2.22692,
 	4.50734 2.2159,
 	4.51836 2.22692,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.33259 1.99706,
 	4.32157 1.98604,
 	4.33259 1.97502,
 	4.34361 1.98604,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.29795 1.97188,
 	4.28693 1.96085,
 	4.29795 1.94983,
 	4.30897 1.96085,
 	"/>
-<Contour name="d01ax06ssvr" hidden="true" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
+<Contour name="d01ax06ssvr" hidden="false" closed="true" simplified="false" border="0 1 0.25098" fill="0 0 1" mode="-11"
  points="4.29795 1.9152,
 	4.28693 1.90418,
 	4.29795 1.89316,
@@ -3128,7 +3141,7 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="d13" hidden="true" closed="true" simplified="true" border="1 1 0" fill="1 1 0" mode="11"
+<Contour name="d13" hidden="false" closed="true" simplified="true" border="1 1 0" fill="1 1 0" mode="11"
  points="1.66115 0.417698,
 	1.67079 0.404846,
 	1.68364 0.404846,
@@ -3267,739 +3280,9 @@
 <Transform dim="6"
  xcoef=" 0.0925077492284508 0.998543026644729 -0.0100712961618164 0 0 0"
  ycoef=" 0.224452645116536 -0.00237123459751437 0.975240597849761 0 0 0">
-<Contour name="mito03_mw_KH(ok)" hidden="true" closed="false" simplified="false" border="1 0 0.5" fill="1 0 0.5" mode="-9"
+<Contour name="mito03_mw_KH(ok)" hidden="false" closed="false" simplified="false" border="1 0 0.5" fill="1 0 0.5" mode="-9"
  points="7.02837 0.580584,
 	7.055 0.767022,
-	"/>
-</Transform>
-
-<Transform dim="0"
- xcoef=" 0 1 0 0 0 0"
- ycoef=" 0 0 1 0 0 0">
-<Contour name="d01ax03" comment="LK bouton trace named after cfa" hidden="true" closed="true" simplified="true" border="0 1 1" fill="0.502 1 1" mode="-9"
- points="5.08453 4.78394,
-	5.08737 4.77487,
-	5.0902 4.75672,
-	5.09191 4.74764,
-	5.09531 4.73857,
-	5.09758 4.72949,
-	5.10608 4.71135,
-	5.10892 4.70227,
-	5.10892 4.69773,
-	5.10722 4.6932,
-	5.10608 4.68412,
-	5.11062 4.66597,
-	5.11232 4.6569,
-	5.12083 4.63875,
-	5.12253 4.63648,
-	5.1231 4.63421,
-	5.13217 4.62627,
-	5.13671 4.62344,
-	5.13898 4.62287,
-	5.14295 4.6189,
-	5.14522 4.61663,
-	5.14919 4.60756,
-	5.15032 4.60302,
-	5.15429 4.59394,
-	5.15599 4.58941,
-	5.17414 4.57183,
-	5.17925 4.56275,
-	5.18152 4.55821,
-	5.18208 4.55595,
-	5.18662 4.55254,
-	5.19172 4.54347,
-	5.19456 4.53893,
-	5.21271 4.52078,
-	5.22178 4.51511,
-	5.23993 4.50774,
-	5.24901 4.5049,
-	5.2853 4.5032,
-	5.29438 4.5015,
-	5.29892 4.50036,
-	5.31707 4.4998,
-	5.33521 4.50036,
-	5.35336 4.5032,
-	5.37151 4.50887,
-	5.38059 4.51057,
-	5.41688 4.51171,
-	5.43503 4.51227,
-	5.45318 4.51398,
-	5.48948 4.51908,
-	5.50763 4.52078,
-	5.52578 4.52475,
-	5.54393 4.53042,
-	5.553 4.53326,
-	5.57115 4.53496,
-	5.58022 4.53496,
-	5.58476 4.53496,
-	5.62106 4.54971,
-	5.63921 4.55821,
-	5.64828 4.56275,
-	5.68458 4.58544,
-	5.70273 4.60075,
-	5.72088 4.6172,
-	5.72995 4.62457,
-	5.73449 4.62797,
-	5.75264 4.64612,
-	5.76115 4.6535,
-	5.76682 4.66257,
-	5.78213 4.68072,
-	5.78837 4.68979,
-	5.79347 4.69887,
-	5.79461 4.70114,
-	5.80255 4.71021,
-	5.80709 4.71475,
-	5.81219 4.72382,
-	5.81503 4.7329,
-	5.81673 4.74197,
-	5.81729 4.76012,
-	5.81786 4.7692,
-	5.81446 4.78734,
-	5.81276 4.79642,
-	5.81162 4.80096,
-	5.81106 4.83725,
-	5.81106 4.84179,
-	5.81389 4.85087,
-	5.81729 4.8554,
-	5.819 4.85767,
-	5.8207 4.86675,
-	5.82013 4.87128,
-	5.81162 4.88943,
-	5.78837 4.92573,
-	5.7827 4.9348,
-	5.77873 4.94388,
-	5.77646 4.95295,
-	5.77476 4.95749,
-	5.77136 4.99379,
-	5.77136 5.01194,
-	5.77136 5.01647,
-	5.76682 5.02555,
-	5.74924 5.0437,
-	5.73109 5.05788,
-	5.72201 5.06468,
-	5.70386 5.07489,
-	5.69479 5.08,
-	5.68572 5.08737,
-	5.68345 5.08964,
-	5.66586 5.12593,
-	5.65736 5.14408,
-	5.65339 5.15316,
-	5.64828 5.16223,
-	5.64034 5.17131,
-	5.63581 5.17528,
-	5.63354 5.17698,
-	5.61539 5.18208,
-	5.60631 5.18435,
-	5.60178 5.18549,
-	5.56548 5.18435,
-	5.54733 5.18435,
-	5.54279 5.18378,
-	5.4702 5.15373,
-	5.4339 5.13387,
-	5.42539 5.12537,
-	5.42085 5.12083,
-	5.41859 5.11856,
-	5.41008 5.10041,
-	5.40668 5.09134,
-	5.40157 5.08226,
-	5.39874 5.07829,
-	5.38966 5.07206,
-	5.37151 5.06411,
-	5.35336 5.05731,
-	5.34429 5.05504,
-	5.30799 5.05164,
-	5.28984 5.0488,
-	5.28077 5.04483,
-	5.27623 5.04313,
-	5.26716 5.0437,
-	5.25808 5.04653,
-	5.23993 5.05391,
-	5.22178 5.05958,
-	5.20363 5.05788,
-	5.19456 5.05504,
-	5.18605 5.04653,
-	5.18038 5.03746,
-	5.17584 5.02838,
-	5.17414 5.02385,
-	5.17131 5.0057,
-	5.16961 4.99662,
-	5.1679 4.99209,
-	5.16564 4.97394,
-	5.16507 4.9694,
-	5.16167 4.96033,
-	5.15543 4.95125,
-	5.15202 4.94671,
-	5.14749 4.94218,
-	5.13841 4.93651,
-	5.12934 4.92913,
-	5.12537 4.9246,
-	5.12253 4.92006,
-	5.12026 4.91779,
-	5.11516 4.90871,
-	5.11402 4.90418,
-	5.11119 4.89964,
-	5.10665 4.89567,
-	5.10155 4.88716,
-	5.09871 4.87809,
-	5.09134 4.84179,
-	5.09134 4.83272,
-	5.09077 4.82818,
-	5.08794 4.8191,
-	5.0851 4.80096,
-	5.08453 4.79188,
-	5.08453 4.78734,
-	5.08453 4.78508,
-	5.08453 4.78451,
-	"/>
-</Transform>
-
-<Transform dim="0"
- xcoef=" 0 1 0 0 0 0"
- ycoef=" 0 0 1 0 0 0">
-<Contour name="d01ax06" comment="LK bouton trace named after cfa" hidden="true" closed="true" simplified="true" border="0 1 1" fill="0.502 1 1" mode="-9"
- points="1.98679 0.664357,
-	1.9888 0.66033,
-	2.00491 0.653283,
-	2.02102 0.650262,
-	2.02505 0.648249,
-	2.02706 0.648249,
-	2.04216 0.63214,
-	2.05021 0.625093,
-	2.06632 0.622073,
-	2.09854 0.621066,
-	2.10659 0.621066,
-	2.11465 0.619052,
-	2.14686 0.621066,
-	2.16297 0.63214,
-	2.17908 0.641201,
-	2.18714 0.644222,
-	2.19519 0.645228,
-	2.19922 0.645228,
-	2.21532 0.653283,
-	2.22338 0.65731,
-	2.23949 0.659323,
-	2.24754 0.659323,
-	2.25157 0.659323,
-	2.26768 0.668384,
-	2.27573 0.673418,
-	2.29184 0.676438,
-	2.30795 0.677445,
-	2.316 0.680465,
-	2.33211 0.689526,
-	2.34822 0.696574,
-	2.36433 0.700601,
-	2.39654 0.703621,
-	2.42876 0.708655,
-	2.43681 0.709662,
-	2.45292 0.717716,
-	2.46098 0.721743,
-	2.47708 0.734831,
-	2.48514 0.740871,
-	2.49319 0.743892,
-	2.5093 0.744898,
-	2.54152 0.741878,
-	2.55763 0.741878,
-	2.57373 0.743892,
-	2.60595 0.754966,
-	2.63817 0.762013,
-	2.67038 0.762013,
-	2.68649 0.75698,
-	2.7026 0.749932,
-	2.71065 0.746912,
-	2.72676 0.746912,
-	2.73482 0.747919,
-	2.74287 0.750939,
-	2.74992 0.757986,
-	2.75898 0.774095,
-	2.76905 0.806311,
-	2.78314 0.838528,
-	2.79019 0.854636,
-	2.80026 0.870744,
-	2.80831 0.886853,
-	2.81435 0.902961,
-	2.81334 0.911015,
-	2.81032 0.914035,
-	2.80227 0.916049,
-	2.78616 0.913029,
-	2.77811 0.909001,
-	2.762 0.89692,
-	2.75394 0.889873,
-	2.73784 0.881819,
-	2.72978 0.877792,
-	2.71367 0.876785,
-	2.69757 0.877792,
-	2.66535 0.885846,
-	2.63313 0.886853,
-	2.61702 0.882825,
-	2.58481 0.867724,
-	2.57675 0.866717,
-	2.57273 0.86571,
-	2.55662 0.872758,
-	2.54051 0.881819,
-	2.5244 0.894907,
-	2.51635 0.899941,
-	2.50829 0.902961,
-	2.49219 0.901954,
-	2.45997 0.903968,
-	2.42775 0.902961,
-	2.41164 0.899941,
-	2.37943 0.888866,
-	2.37137 0.885846,
-	2.35527 0.883832,
-	2.32305 0.874771,
-	2.30694 0.868731,
-	2.29083 0.864704,
-	2.25862 0.852622,
-	2.19418 0.818392,
-	2.17807 0.807318,
-	2.16197 0.793223,
-	2.15391 0.785169,
-	2.15089 0.783156,
-	2.14384 0.775101,
-	2.12874 0.764027,
-	2.12472 0.761007,
-	2.11767 0.755973,
-	2.10156 0.739865,
-	2.09351 0.73181,
-	2.06129 0.709662,
-	2.02907 0.69456,
-	2.02102 0.693553,
-	2.00491 0.686506,
-	1.9888 0.677445,
-	1.98679 0.673418,
-	1.98679 0.665364,
-	"/>
-</Transform>
-
-<Transform dim="6"
- xcoef=" 0.352305667017713 0.914469466316788 0.0354086425442942 0 0 0"
- ycoef=" 0.785041929356143 -0.0544320166333272 0.990713769141131 0 0 0">
-<Image mag="0.00220626" contrast="1" brightness="0" red="true" green="true" blue="true"
- src="FPNCT.22.jpg" />
-<Contour name="domain1" hidden="false" closed="true" simplified="false" border="1 0 1" fill="1 0 1" mode="11"
- points="0 0,
-	4096 0,
-	4096 4096,
-	0 4096,
-	"/>
-</Transform>
-
-<Transform dim="0"
- xcoef=" 0 1 0 0 0 0"
- ycoef=" 0 0 1 0 0 0">
-<Contour name="d01ax06" comment="LK bouton trace named after cfa" hidden="true" closed="true" simplified="true" border="0 1 1" fill="0.502 1 1" mode="-9"
- points="3.92465 1.58292,
-	3.93336 1.57421,
-	3.95078 1.5655,
-	3.98561 1.55353,
-	3.99432 1.55353,
-	4.00303 1.55679,
-	4.01174 1.56224,
-	4.02916 1.5655,
-	4.09883 1.57095,
-	4.11625 1.57312,
-	4.12061 1.57312,
-	4.13803 1.57966,
-	4.17286 1.6047,
-	4.2077 1.62538,
-	4.22512 1.63518,
-	4.23383 1.64171,
-	4.23818 1.64498,
-	4.2556 1.65042,
-	4.27302 1.65042,
-	4.28173 1.6526,
-	4.29915 1.66022,
-	4.30786 1.6624,
-	4.31221 1.6624,
-	4.34705 1.67546,
-	4.38189 1.68417,
-	4.41673 1.69614,
-	4.43414 1.70268,
-	4.4385 1.70268,
-	4.44721 1.70594,
-	4.45156 1.70594,
-	4.46027 1.70921,
-	4.47769 1.71139,
-	4.51253 1.72118,
-	4.52995 1.72989,
-	4.54737 1.73643,
-	4.5822 1.73751,
-	4.58656 1.7386,
-	4.60398 1.75276,
-	4.61595 1.77017,
-	4.61922 1.77888,
-	4.62139 1.7963,
-	4.62139 1.80066,
-	4.63119 1.81808,
-	4.63446 1.85291,
-	4.63555 1.87033,
-	4.64317 1.88775,
-	4.64535 1.89646,
-	4.64752 1.90081,
-	4.64752 1.90952,
-	4.6497 1.91823,
-	4.6497 1.92694,
-	4.65514 1.94436,
-	4.6693 1.96178,
-	4.67692 1.97049,
-	4.68236 1.9792,
-	4.68454 1.98355,
-	4.68345 2.00097,
-	4.68018 2.00968,
-	4.67474 2.01839,
-	4.65732 2.03472,
-	4.6399 2.04887,
-	4.62357 2.0652,
-	4.61595 2.07391,
-	4.60615 2.09133,
-	4.59853 2.10875,
-	4.58873 2.12617,
-	4.57458 2.14359,
-	4.56914 2.1523,
-	4.50491 2.22197,
-	4.49838 2.23068,
-	4.48096 2.2481,
-	4.47225 2.25681,
-	4.43741 2.28076,
-	4.4287 2.28511,
-	4.41128 2.29818,
-	4.39386 2.30798,
-	4.37644 2.31995,
-	4.37209 2.32104,
-	4.36774 2.32431,
-	4.36556 2.32431,
-	4.36338 2.32648,
-	4.3612 2.32648,
-	4.35685 2.32975,
-	4.35249 2.33084,
-	4.34378 2.33628,
-	4.33943 2.33737,
-	4.33508 2.34064,
-	4.3329 2.34064,
-	4.32854 2.3439,
-	4.31112 2.34935,
-	4.30241 2.35479,
-	4.285 2.36132,
-	4.25016 2.36894,
-	4.23274 2.3733,
-	4.1979 2.3733,
-	4.18048 2.36894,
-	4.17177 2.36568,
-	4.15436 2.35152,
-	4.14565 2.3439,
-	4.13476 2.32648,
-	4.13258 2.31777,
-	4.12823 2.30906,
-	4.12496 2.29165,
-	4.1217 2.28294,
-	4.11952 2.26552,
-	4.11952 2.25681,
-	4.1217 2.2481,
-	4.1217 2.24374,
-	4.12496 2.23939,
-	4.13149 2.22197,
-	4.13585 2.21326,
-	4.13803 2.20455,
-	4.13803 2.18713,
-	4.13476 2.16971,
-	4.13258 2.16101,
-	4.13911 2.12617,
-	4.14129 2.10875,
-	4.13803 2.07391,
-	4.13476 2.0652,
-	4.13367 2.05649,
-	4.12932 2.04778,
-	4.12061 2.03907,
-	4.10319 2.03254,
-	4.08577 2.02274,
-	4.07706 2.01621,
-	4.07053 2.0075,
-	4.06726 2.00315,
-	4.06617 1.99444,
-	4.06182 1.98573,
-	4.06182 1.96831,
-	4.06073 1.9596,
-	4.05746 1.95089,
-	4.05638 1.93347,
-	4.05638 1.92476,
-	4.05529 1.92041,
-	4.05093 1.91606,
-	4.04658 1.90735,
-	4.04549 1.89864,
-	4.04876 1.88122,
-	4.05202 1.87251,
-	4.05093 1.85509,
-	4.04113 1.83767,
-	4.03787 1.83332,
-	4.0346 1.82461,
-	4.03243 1.75493,
-	4.03134 1.7201,
-	4.02807 1.68526,
-	4.02698 1.67655,
-	4.02698 1.67219,
-	4.00847 1.63736,
-	3.99977 1.62865,
-	3.98235 1.61885,
-	3.97364 1.61558,
-	3.95622 1.61341,
-	3.9388 1.60796,
-	3.93009 1.60034,
-	3.92682 1.59599,
-	3.92465 1.58728,
-	3.92465 1.58401,
-	"/>
-</Transform>
-
-<Transform dim="0"
- xcoef=" 0 1 0 0 0 0"
- ycoef=" 0 0 1 0 0 0">
-<Contour name="d01ax12_ddh" comment="ddh_traced_2018-05-22" hidden="false" closed="true" simplified="true" border="0.501961 1 0.501961" fill="0.501961 1 0.501961" mode="11"
- points="7.15978 5.12602,
-	7.16239 5.11562,
-	7.17019 5.10652,
-	7.18059 5.10131,
-	7.2222 5.09351,
-	7.23261 5.08831,
-	7.23521 5.08571,
-	7.25601 5.07921,
-	7.25861 5.07661,
-	7.26121 5.07661,
-	7.26641 5.07271,
-	7.26902 5.07011,
-	7.27162 5.07011,
-	7.27682 5.0662,
-	7.28722 5.0636,
-	7.30803 5.0636,
-	7.31063 5.0662,
-	7.33143 5.07271,
-	7.33403 5.07531,
-	7.33923 5.07661,
-	7.34444 5.08051,
-	7.34964 5.08181,
-	7.35094 5.08441,
-	7.35614 5.08571,
-	7.36134 5.08961,
-	7.36654 5.09091,
-	7.36914 5.09351,
-	7.37434 5.09481,
-	7.37825 5.09871,
-	7.38865 5.10261,
-	7.40945 5.10392,
-	7.43026 5.10782,
-	7.44066 5.10912,
-	7.46017 5.12342,
-	7.46667 5.13382,
-	7.47057 5.14423,
-	7.47707 5.18584,
-	7.47967 5.18844,
-	7.48878 5.20924,
-	7.49008 5.21445,
-	7.49268 5.21705,
-	7.49528 5.22745,
-	7.49788 5.23265,
-	7.49658 5.25346,
-	7.49528 5.26386,
-	7.49138 5.27426,
-	7.48357 5.28467,
-	7.47317 5.29117,
-	7.47187 5.29377,
-	7.45107 5.30157,
-	7.43026 5.30027,
-	7.40945 5.29377,
-	7.39905 5.28987,
-	7.37825 5.28987,
-	7.36784 5.29117,
-	7.36264 5.29117,
-	7.36004 5.29117,
-	7.35744 5.29377,
-	7.34704 5.29507,
-	7.33663 5.29897,
-	7.31583 5.30027,
-	7.29502 5.29637,
-	7.28982 5.29507,
-	7.27942 5.28857,
-	7.26251 5.27036,
-	7.25731 5.26516,
-	7.23781 5.25606,
-	7.23521 5.25606,
-	7.23 5.25216,
-	7.2248 5.25086,
-	7.217 5.24435,
-	7.2118 5.24045,
-	7.2053 5.21965,
-	7.204 5.20924,
-	7.204 5.20404,
-	7.2001 5.19364,
-	7.1975 5.19104,
-	7.1975 5.18844,
-	7.19489 5.18584,
-	7.19489 5.18324,
-	7.17799 5.16373,
-	7.16889 5.15333,
-	7.16499 5.14943,
-	7.16369 5.14423,
-	7.16109 5.14163,
-	7.15978 5.13122,
-	7.15978 5.12732,
-	"/>
-</Transform>
-
-<Transform dim="0"
- xcoef=" 0 1 0 0 0 0"
- ycoef=" 0 0 1 0 0 0">
-<Contour name="d01ax22B_ddh" comment="ddh_traced_2018-05-31" hidden="false" closed="true" simplified="true" border="0.502 1 0.502" fill="0.502 1 0.502" mode="11"
- points="1.43445 -0.0517657,
-	1.44671 -0.0953578,
-	1.44944 -0.0967201,
-	1.45216 -0.107618,
-	1.45216 -0.110343,
-	1.45489 -0.113067,
-	1.45625 -0.134863,
-	1.45489 -0.178455,
-	1.45489 -0.189353,
-	1.46442 -0.211149,
-	1.48894 -0.254742,
-	1.49167 -0.260191,
-	1.5012 -0.269726,
-	1.51074 -0.276538,
-	1.52981 -0.294247,
-	1.53526 -0.299696,
-	1.55706 -0.314681,
-	1.57749 -0.333752,
-	1.58566 -0.343288,
-	1.58975 -0.348737,
-	1.59111 -0.354186,
-	1.5952 -0.359635,
-	1.59656 -0.365084,
-	1.60337 -0.375982,
-	1.60474 -0.381431,
-	1.60882 -0.38688,
-	1.60882 -0.389605,
-	1.61427 -0.395054,
-	1.61972 -0.40459,
-	1.62926 -0.411401,
-	1.63198 -0.414125,
-	1.65378 -0.41685,
-	1.67557 -0.425024,
-	1.67966 -0.42911,
-	1.6892 -0.433197,
-	1.70963 -0.445457,
-	1.72053 -0.450906,
-	1.73143 -0.453631,
-	1.77502 -0.452269,
-	1.79681 -0.450906,
-	1.80771 -0.448182,
-	1.82951 -0.437284,
-	1.84041 -0.433197,
-	1.84586 -0.42911,
-	1.8513 -0.427748,
-	1.85403 -0.425024,
-	1.87582 -0.418212,
-	1.88127 -0.415488,
-	1.92487 -0.411401,
-	1.93032 -0.408676,
-	1.95211 -0.40459,
-	1.97391 -0.397778,
-	1.97663 -0.397778,
-	1.97936 -0.395054,
-	2.00115 -0.385518,
-	2.01205 -0.380069,
-	2.0175 -0.377345,
-	2.02022 -0.37462,
-	2.02295 -0.37462,
-	2.02431 -0.371896,
-	2.02704 -0.371896,
-	2.0679 -0.34465,
-	2.08834 -0.33239,
-	2.09379 -0.328303,
-	2.09651 -0.328303,
-	2.10741 -0.321492,
-	2.12512 -0.302421,
-	2.1401 -0.283349,
-	2.15509 -0.261553,
-	2.16326 -0.250655,
-	2.16462 -0.245206,
-	2.16871 -0.241119,
-	2.17007 -0.23567,
-	2.17416 -0.230221,
-	2.17552 -0.224772,
-	2.17961 -0.219323,
-	2.17961 -0.216599,
-	2.18233 -0.213874,
-	2.19187 -0.192078,
-	2.19732 -0.18118,
-	2.19868 -0.175731,
-	2.2014 -0.173006,
-	2.20413 -0.162108,
-	2.20822 -0.156659,
-	2.20822 -0.153935,
-	2.21094 -0.15121,
-	2.21366 -0.140312,
-	2.21639 -0.137588,
-	2.23274 -0.0939956,
-	2.23274 -0.0885466,
-	2.23955 -0.0667505,
-	2.24363 -0.0231583,
-	2.24772 -0.00136225,
-	2.24772 0.00953578,
-	2.25317 0.0313319,
-	2.25998 0.074924,
-	2.26407 0.0858221,
-	2.26543 0.0967201,
-	2.26952 0.107618,
-	2.27088 0.129414,
-	2.26952 0.15121,
-	2.25998 0.194802,
-	2.25589 0.2057,
-	2.25453 0.211149,
-	2.23955 0.232946,
-	2.22729 0.254742,
-	2.21911 0.264277,
-	2.20822 0.273813,
-	2.18642 0.287436,
-	2.17552 0.29016,
-	2.15372 0.291523,
-	2.11013 0.29016,
-	2.06654 0.286074,
-	2.04474 0.283349,
-	2.0393 0.283349,
-	2.03385 0.280624,
-	2.01205 0.279262,
-	1.92487 0.280624,
-	1.88127 0.280624,
-	1.79409 0.268364,
-	1.77229 0.262915,
-	1.7505 0.260191,
-	1.70691 0.249293,
-	1.66331 0.232946,
-	1.65786 0.231583,
-	1.617 0.202976,
-	1.59792 0.185267,
-	1.58975 0.177093,
-	1.57613 0.155297,
-	1.5734 0.149848,
-	1.57068 0.147124,
-	1.56932 0.141675,
-	1.56114 0.130776,
-	1.55842 0.128052,
-	1.55842 0.125327,
-	1.55025 0.114429,
-	1.5448 0.104894,
-	1.54207 0.103531,
-	1.54207 0.100807,
-	1.53526 0.0899088,
-	1.53526 0.0871843,
-	1.52164 0.0681127,
-	1.51074 0.0476789,
-	1.49576 0.0286074,
-	1.48486 0.0190716,
-	1.48077 0.0163471,
-	1.4617 -0.00272451,
-	1.45353 -0.0122603,
-	1.44535 -0.0190716,
-	1.43854 -0.0299696,
-	1.43445 -0.0408676,
-	1.43445 -0.0504034,
 	"/>
 </Transform>
 
